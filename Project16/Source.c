@@ -9,15 +9,15 @@ int main() {
 	float n;
 	double x = 0.15, result;
 
-	printf("Функция: y=х-3cos^2(1.04x)\n");
-	printf("Интервал: [0.15;2.1]\n\n");
-	printf("Введите шаг табуляции:");
+	printf("Г”ГіГ­ГЄГ¶ГЁГї: y=Гµ-3cos^2(1.04x)\n");
+	printf("Г€Г­ГІГҐГ°ГўГ Г«: [0.15;2.1]\n\n");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ ГёГ ГЈ ГІГ ГЎГіГ«ГїГ¶ГЁГЁ:");
 	scanf("%f", &n);
 	printf("---------------\n");
 	printf("|   x  | f(x) |\n");
 	printf("|------|------|\n");
 	for (; x <= 2.5; x += n) {
-		result = x - 3 * pow(cos(1, 04 * x), 2);
+		result = x - 3 * pow(cos(1.04 * x), 2);
 		printf("|%6.2lf|%6.2lf|\n", x, result);
 	}
 	return 0;
